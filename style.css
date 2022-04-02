@@ -4,7 +4,12 @@
 
 
 body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   background-color: #000000;
    font-family: 'Roboto';
+   color: #ffffff;
 }
 
 
@@ -12,4 +17,43 @@ body {
    max-width: 1440px;
    margin: 0 auto;
    padding: 0 20px;
+}
+
+
+.header-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+}
+
+
+.nav-list {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin: auto;
+}
+
+
+.nav-item {
+display: inline;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: left;
+padding: 30px;
+margin: 20px;
+}
+
+
+.change-lang {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 50px;
+/* identical to box height, or 250% */
+text-align: center;
 }
