@@ -32,11 +32,18 @@ body {
 
 
 .header-container__img {
+   background-image: url(./assets/svg/logo_unvisited.svg);
    margin-left: 20px;
    margin-top: 20px;
    margin-bottom: 20px;
    height: 50px;
    width: 50px;
+}
+
+
+.header-container__img:hover {
+   background: url(./assets/svg/logo_hover.svg);
+   transition: color 0.4s;
 }
 
 
@@ -78,6 +85,18 @@ font-size: 20px;
 line-height: 50px;
 color:#ffffff;
 margin-left: 20px;
+}
+
+
+a:hover {
+   color: #BDAE82;
+   transition: color 0.4s;
+}
+
+
+.nav-link:hover {
+   color: #BDAE82;
+   transition: color 0.4s;
 }
 
 
@@ -129,4 +148,11 @@ line-height: 40px;
 background-color: #BDAE82;
 width: 220px;
 height: 55px;
+}
+
+
+.section-hero__button:hover {
+   color:#ffffff;
+   transition: color 0.5s;
+
 }
