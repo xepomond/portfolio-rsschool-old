@@ -148,6 +148,7 @@ line-height: 40px;
 background-color: #BDAE82;
 width: 220px;
 height: 55px;
+border: none;
 }
 
 
@@ -155,4 +156,70 @@ height: 55px;
    color:#ffffff;
    transition: color 0.5s;
 
+}
+
+
+
+.section-title {
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+   margin-bottom: 60px;
+   font-family: 'Merriweather';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 80px;
+   color:#BDAE82;
+   padding-left: 39px;
+}
+
+
+hr {
+   display: flex;
+   justify-content: space-between;
+   margin: 20px;
+   margin-top: 39px;
+   background: #BDAE82;
+   border-radius: 0px;
+   width: 274px;
+   height: 0px;
+   
+}
+
+
+.all-sectin-skills {
+   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+
+.section-skills__p-title {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 40px;
+   margin-bottom: 20px;
+   margin-top: 45px;
+   margin-right: 20px;
+   margin-left: 60px;
+}
+
+
+.section-skills__p-text {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 36px;
+   width: 280px;
+   margin-left: 40px;
+}
+
+
+.section-skills-img {
+   margin-left: 40px;
 }
