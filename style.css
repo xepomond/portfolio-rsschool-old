@@ -295,3 +295,27 @@ hr {
    margin-top: 100px;
    margin-right: 40px;
 }
+
+
+.video-player {
+   position: relative;
+   z-index: 1;
+}
+
+
+.video-player__start {
+   position: absolute;
+   background: url(./assets/svg/Play_Unvisited.svg);
+   left: 45.5%;
+   bottom: 41%;
+   width: 130px;
+   height: 130px;
+   z-index: 2;
+}
+
+
+
+.video-player__start:hover {
+   background: url(./assets/svg/Play_hover.svg);
+   transition: color 0.4s;
+}
