@@ -223,3 +223,58 @@ hr {
 .section-skills-img {
    margin-left: 40px;
 }
+
+
+.section-portfolio__buttons {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 60px;
+   width: 895px;
+   margin-left: 270px;
+}
+
+
+.button-portfolio {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 40px;
+   background-color: #000000;
+   border: 1px solid #BDAE82;
+   color: #BDAE82;
+   width: 220px;
+   height: 55px;
+}
+
+
+.button-portfolio:hover {
+   color:#000000;
+   background-color:#BDAE82;
+   transition: color 0,5s;
+}
+
+
+.section-title-portfolio {
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+   margin-bottom: 60px;
+   font-family: 'Merriweather';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 80px;
+   color:#BDAE82;
+   margin-top: 90px;
+}
+
+
+.section-portfolio__galery {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 25px;
+}
