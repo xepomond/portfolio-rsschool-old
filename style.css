@@ -3,6 +3,11 @@
  }
 
 
+ html {
+   scroll-behavior: smooth;
+ }
+
+
 body {
    display: flex;
    flex-direction: column;
@@ -16,7 +21,7 @@ body {
 
 
 .container {
-   width: 1440px;
+  max-width: 1440px;
    margin: 0 auto;
    padding: 0 20px;
 }
@@ -156,7 +161,9 @@ h1 {
 
 .section-hero__button:hover {
    color:#ffffff;
-   transition: color 0.5s;
+   background-color: #b5a163;
+   transition: background-color 0.4s linear;
+   transition: color 0.4s;
 
 }
 
@@ -256,7 +263,8 @@ hr {
 .button-portfolio:hover {
    color:#000000;
    background-color:#BDAE82;
-   transition: color 0,5s;
+   transition: color 0,4s;
+   transition: background-color 0.4s linear;
 }
 
 
@@ -316,7 +324,7 @@ hr {
 
 .video-player__start:hover {
    background: url(./assets/svg/Play_hover.svg);
-   transition: color 0.4s;
+   transition: background 0.4s linear;
 }
 
 
@@ -404,7 +412,9 @@ hr {
 
 .button-order:hover {
    color:#ffffff;
-   transition: color 0,5s;
+   background-color: #b5a163;
+   transition: background-color 0.4s linear;
+   transition: color 0.4s;
    cursor: pointer;
 }
 
@@ -494,13 +504,17 @@ textarea {
 
 .button-contacts:hover {
    color:#ffffff;
-   transition: color 0,5s;
+   background-color: #b5a163;
+   transition: background-color 0.4s linear;
+   transition: color 0.4s;
    cursor: pointer;
 }
 
 
 ::placeholder {
-   color: #BDAE82;
+   font-family: inherit;
+   color: #bdae82;
+   font-size: 20px;
 }
 
 
@@ -536,48 +550,52 @@ textarea {
 
 
 .media-links__inst{
-   background-image: url(./assets/svg/inst\ 1.svg); 
+   background-image: url(./assets/svg/inst1.svg); 
    width: 32px;
    height: 32px;
 }
 
 
 .media-links__inst:hover {
-   background-image: url(./assets/svg/inst\ 2.svg);
+   background-image: url(./assets/svg/inst2.svg);
+   transition: color 0,4s;
 }
 
 
 .media-links__fb{
-   background-image: url(./assets/svg/fb\ 1.svg); 
+   background-image: url(./assets/svg/fb1.svg); 
    width: 32px;
    height: 32px;
 }
 
 
 .media-links__fb:hover {
-   background-image: url(./assets/svg/fb\ 2.svg);
+   background-image: url(./assets/svg/fb2.svg);
+   transition: color 0,4s;
 }
 
 
 .media-links__tw{
-   background-image: url(./assets/svg/tw\ 1.svg); 
+   background-image: url(./assets/svg/tw1.svg); 
    width: 32px;
    height: 32px;
 }
 
 
 .media-links__tw:hover {
-   background-image: url(./assets/svg/tw\ 2.svg);
+   background-image: url(./assets/svg/tw2.svg);
+   transition: color 0,4s;
 }
 
 
 .media-links__pinterest{
-   background-image: url(./assets/svg/pinterest\ 1.svg); 
+   background-image: url(./assets/svg/pinterest1.svg); 
    width: 32px;
    height: 32px;
 }
 
 
 .media-links__pinterest:hover {
-   background-image: url(./assets/svg/pinterest\ 2.svg);
+   background-image: url(./assets/svg/pinterest2.svg);
+   transition: color 0,4s;
 }
