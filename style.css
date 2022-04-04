@@ -49,7 +49,7 @@ body {
 
 .nav-list {
    display: flex;
-  margin-left:auto;
+   margin-left:auto;
 }
 
 
@@ -68,23 +68,23 @@ a {
 
 
 .nav-item {
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 50px;
-letter-spacing: 0em;
-margin-left: 30px;
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 50px;
+   letter-spacing: 0em;
+   margin-left: 30px;
 }
 
 
 .change-lang {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 50px;
-color:#ffffff;
-margin-left: 35px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 50px;
+   color:#ffffff;
+   margin-left: 35px;
 }
 
 
@@ -119,37 +119,38 @@ a:hover {
 
 
 .section-hero__p {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 40px;
-margin-top: 0px;
-margin-right: 30px;
-margin-bottom: 25px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 40px;
+   margin-top: 0px;
+   margin-right: 30px;
+   margin-bottom: 25px;
 }
 
 
 h1 {
-font-family: 'Merriweather';
-font-style: normal;
-font-weight: 700;
-font-size: 60px;
-line-height: 120px;
-margin-bottom: 10px;
+   font-family: 'Merriweather';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 60px;
+   line-height: 120px;
+   margin-bottom: 10px;
 }
 
+
 .section-hero__button {
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 40px;
-background-color: #BDAE82;
-width: 220px;
-height: 55px;
-border: none;
-cursor: pointer;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 40px;
+   background-color: #BDAE82;
+   width: 220px;
+   height: 55px;
+   border: none;
+   cursor: pointer;
 }
 
 
@@ -158,7 +159,6 @@ cursor: pointer;
    transition: color 0.5s;
 
 }
-
 
 
 .section-title {
@@ -314,12 +314,10 @@ hr {
 }
 
 
-
 .video-player__start:hover {
    background: url(./assets/svg/Play_hover.svg);
    transition: color 0.4s;
 }
-
 
 
 .section-title-price {
@@ -328,12 +326,10 @@ hr {
 }
 
 
-
 .section-price__tariff {
    display: flex;
    gap: 0px 25px;
 }
-
 
 
 .tariff-block {
@@ -373,7 +369,6 @@ hr {
 }
 
 
-
 .tariff-fare {
    display: flex;
    justify-content: center;
@@ -407,7 +402,6 @@ hr {
 }
 
 
-
 .button-order:hover {
    color:#ffffff;
    transition: color 0,5s;
@@ -423,7 +417,6 @@ hr {
    margin-left: -20px;
    margin-top: 100px;
 }
-
 
 
 .section-title__contacts {
@@ -503,4 +496,9 @@ textarea {
    color:#ffffff;
    transition: color 0,5s;
    cursor: pointer;
+}
+
+
+::placeholder {
+   color: #BDAE82;
 }
